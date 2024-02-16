@@ -37,5 +37,5 @@ while True:
         continue
 
     del data[base]
-    for ticker, value in data.items():
-        print(f"{ticker}: {value}")
+    for ticker, Value in data.items():
+        print(f"{ticker}: {Value}")
