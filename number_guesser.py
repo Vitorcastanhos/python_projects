@@ -24,3 +24,5 @@ if guesses == 1:
     print("You got it in", guesses, "guess!")
 else:
     print("You got it in", guesses, "guesses!")
+    print("The number was", number)
+print("Thanks for playing!")
