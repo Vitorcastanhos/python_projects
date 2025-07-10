@@ -5,7 +5,8 @@ from lyrics_extractor import SongLyrics
 window = Tk()  # creating window
 window.geometry('600x600')  # giving size
 window.title('PythonGeeks')  # giving title
-head = Label(window, text="Enter the song you want Lyrics for", font=('Calibri 15'))  # a label
+head = Label(window, text="Enter the song you want Lyrics for",
+             font=('Calibri 15'))  # a label
 head.pack(pady=20)
 result = tk.StringVar()  # ensuring result is string type
 song = tk.StringVar()  # ensuring song is string type
